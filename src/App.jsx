@@ -2,7 +2,7 @@
 import Navbar from './navbar'
 import './App.css'
 import './Navbar.css';
-import Video2 from './assets/Turismo2.mp4'
+
 
 function App() {
   
