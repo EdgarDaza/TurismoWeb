@@ -11,9 +11,7 @@ function App() {
     <>
     <Navbar/>
     
-    <video src={Video2} width="950" height="700" controls>
-    Tu navegador no es compatible con videos HTML5
-   </video> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jYdaQJzcAcw?si=wHE7c9d9PP9Gown-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <h1>¡HISTORIA!</h1>
       
       <p className="read-the-docs">
