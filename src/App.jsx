@@ -2,6 +2,7 @@
 import Navbar from './navbar'
 import './App.css'
 import './Navbar.css';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
 
 Sin embargo, actualmente Panamá es un país que ya no sólo encuentra su razón de ser en su famoso canal, si no que se esfuerza por atraer cada vez más turismo. Panamá es mucho más que el canal; es playa, es montaña, es selva, es cultura, y es, sobre todo, uno de los países con mayor biodiversidad que se hayan visto jamás. Descubre las maravillas que ofrece explorando este rincón del internet.
       </p>
-      
+      <Footer/>
     </>
   )
 }

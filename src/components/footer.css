@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+  padding: 0;
+  border-top: 1px solid #ddd;
+  position: relative;
+}
+.footer-container{
+    display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.col{
+    flex: 1;
+  margin:0;
+  text-align: center;
+}
+
+.logo-section {
+    flex: 1.5;
+  }
+
+.logo{
+    width: 220px;
+    height: 169px;
+    
+}
+
+.col h4{
+    font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: left;
+}
+
+.col ul {
+    list-style: none;
+    padding: 0;
+  }
+
+.col ul li{
+    margin: 5px 0;
+    text-align: left;
+}
+
+.col ul li a{
+    color: #555;
+  text-decoration: none;
+}
+/**/
+
+.col ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-section .social-icons {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+  }
+  
+  .social-section .social-icons a {
+    font-size: 2.2em;
+    color: #555;
+    text-decoration: none;
+    
+  }
+  
+  .social-section .social-icons a:hover {
+    color: #000;
+  }
+  
+  .contact-section p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 0.9em;
+    text-align: left;
+  }
+  
+  .footer-bottom {
+    position: absolute;
+    bottom: 10px; /* Posicionar en la parte inferior */
+    right: 20px; /* Alinear a la derecha */
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-section {
+      margin: 20px 0;
+    }
+
+    .footer-bottom {
+        position: static; /* Para que sea responsivo en pantallas pequeñas */
+        margin-top: 20px;
+      }
+  }
