@@ -1,4 +1,4 @@
-
+/*
 import Navbar from './navbar'
 import './App.css'
 import './Navbar.css';
@@ -25,3 +25,48 @@ Sin embargo, actualmente Panamá es un país que ya no sólo encuentra su razón
 }
 
 export default App
+*/
+
+import React, { useState } from "react";
+import Header from "./components/Header";
+
+const App = () => {
+
+const [theme, setTheme] = useState('light');
+
+  return (
+    <div className='container'>
+      <Header theme={theme} setTheme={setTheme}/>
+    </div>
+  )
+}   
+export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
