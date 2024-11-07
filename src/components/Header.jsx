@@ -8,8 +8,6 @@ const Header = ({theme, setTheme}) => {
     
   return (
     <div className='header'>
-
-      <img src={logwhite} alt="" className='logo'/>
       <ul> 
         <li>Lugares a visitar</li>
         <li>Eventos</li>
