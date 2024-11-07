@@ -6,15 +6,15 @@ import { faXTwitter, faInstagram, faWhatsapp } from '@fortawesome/free-brands-sv
 export default function Footer(){
     return(
         <div className ='footer'>
-            <div className='footer-container'>
-            <div className="col logo-section">
+          <div className='footer-container'>
+            <div className="col">
                 <img src={Logo} alt='Panama-logo' className='logo'></img>
             </div>
 
             <div className="col">
             <h4>Viajes Panamá</h4>
             <ul>
-            <li><a href=''>Inicio</a></li>
+            <li><a href=''>Inicio</a></li><br></br>
             <li><a href=''>Hospedaje</a></li>
             </ul>
             </div>
@@ -22,7 +22,7 @@ export default function Footer(){
             <div className="col">
             <h4>Información</h4>
             <ul>
-            <li><a href=''>Cómo llegar</a></li>
+            <li><a href=''>Cómo llegar</a></li><br></br>
             <li><a href=''>Consejo de viaje</a></li>
             </ul>
             </div>
