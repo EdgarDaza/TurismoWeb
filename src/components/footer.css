@@ -73,6 +73,29 @@
     text-decoration: underline;
     
   }
+
+form {
+  display: block;
+}
+
+.campo {
+  padding: 5px;
+  background-color: #f7f7f7;
+  margin: 2px;
+  border: 1px solid black;
+  outline: none;
+  color: #3f3f3f;
+}
+
+.btn-2{
+  width: auto;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.campo::placeholder{
+  color: black;
+}
   
   .social-section .social-icons {
     display: flex;
