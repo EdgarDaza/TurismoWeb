@@ -117,7 +117,7 @@
     }
 
     .footer-bottom {
-        position: static; /* Para que sea responsivo en pantallas pequeñas */
+        position: relative; /* Para que sea responsivo en pantallas pequeñas */
         margin-top: 20px;
       }
   }
