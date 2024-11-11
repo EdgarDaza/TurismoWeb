@@ -13,7 +13,7 @@ const App = () => {
       <Header theme={theme} setTheme={setTheme} />
       
       <Routes>
-        <Route path="/home" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
       </Routes>
      
 
