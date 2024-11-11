@@ -49,16 +49,16 @@
 }
 
 .col ul {
-    list-style: none;
-    padding: 0;
-    
+  list-style: none;
+  padding: 0;
+  margin: 0;  /* Remove any default margins */
   }
 
 .col ul li{
-    margin: 5px 0;
-    text-align: left;
-    font-size: 1em;
-    
+  margin: 8px 0;  /* Adjust vertical spacing between items */
+  text-align: left;
+  font-size: 1em;
+  display: block;  /* Ensures block-level display */
     
 }
 

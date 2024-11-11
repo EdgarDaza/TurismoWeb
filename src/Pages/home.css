@@ -1,0 +1,7 @@
+
+  /* El contenido principal debe expandirse para "empujar" el footer hacia abajo */
+  main {
+    flex: 1;
+  }
+  
+  

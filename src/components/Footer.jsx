@@ -14,7 +14,7 @@ export default function Footer(){
             <div className="col">
             <h4>Viajes Panamá</h4>
             <ul>
-            <li><a href=''>Inicio</a></li><br></br>
+            <li><a href=''>Inicio</a></li>
             <li><a href=''>Hospedaje</a></li>
             </ul>
             </div>
@@ -22,7 +22,7 @@ export default function Footer(){
             <div className="col">
             <h4>Información</h4>
             <ul>
-            <li><a href=''>Cómo llegar</a></li><br></br>
+            <li><a href=''>Cómo llegar</a></li>
             <li><a href=''>Consejo de viaje</a></li>
             </ul>
             </div>
@@ -50,10 +50,15 @@ export default function Footer(){
 
             <div className='col'>
             <h4>Subscribete para Noticias y Novedades</h4>
-            <form>
+            <form action="https://formsubmit.co/edgar.daza@utp.ac.pa" method="POST" >
               <input className="campo" type="text" name="name" placeholder="Nombre"></input>
               <input className="campo" type="email" name="email" placeholder="Correo"></input>
-              <input className="btn-2" type="button" value="Enviar"></input>
+              <input type="hidden" name="_autoresponse" value="Te has suscrito a Panama Turismo Web."></input>
+              <input className="btn-2" type="submit" value="Enviar"></input>
+
+              
+              
+              
             </form>
             </div>
 
