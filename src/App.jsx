@@ -9,7 +9,7 @@ const App = () => {
   const [theme, setTheme] = useState('light');
 
   return (
-    <>
+    <div className="container">
       <Header theme={theme} setTheme={setTheme} />
       
       <Routes>
@@ -18,7 +18,7 @@ const App = () => {
      
 
       <Footer />
-      </>
+      </div>
   );
 }
 
