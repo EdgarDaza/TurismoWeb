@@ -29,6 +29,7 @@ export default App
 */
 
 import React, { useState } from "react";
+import Logo_central from "./components/Logo_central";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -38,6 +39,8 @@ const [theme, setTheme] = useState('light');
 
   return (
     <div className='container'>
+      <Logo_central/>
+      
       <Header theme={theme} setTheme={setTheme}/>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jYdaQJzcAcw?si=wHE7c9d9PP9Gown-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <h1>¡HISTORIA!<br/></h1>
