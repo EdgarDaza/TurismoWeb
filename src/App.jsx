@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo_central from "./components/Logo_central";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -10,6 +11,7 @@ const App = () => {
 
   return (
     <div className="container">
+       <Logo_central/>
       <Header theme={theme} setTheme={setTheme} />
       
       <Routes>
