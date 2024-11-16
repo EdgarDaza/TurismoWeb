@@ -1,19 +1,18 @@
 
 import './Navbar.css';
-import Logo from './assets/LogoN.png'
+import Logo from '../assets/LogoN.png';
+import Lugares_a_visitar from "../Pages/Lugares_a_visitar";
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
 
 <nav className="navbar">
   <div className="navbar-left">
-    <a href="/" className="logo" width="250" height="213">
-    <img src={Logo} className="logo panama" alt="Panama logo" />
-    </a>
   </div>
   <div className="navbar-center">
     <ul className="nav-links">
       <li>
-        <a href="/lugares">Lugares a Visitar</a>
+        <Link to="/Lugares_a_visitar">Lugares a Visitar</Link>
       </li>
       <li>
         <a href="/Eventos">Eventos</a>
