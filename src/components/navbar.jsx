@@ -1,7 +1,5 @@
 
 import './Navbar.css';
-import Logo from '../assets/LogoN.png';
-import Lugares_a_visitar from "../Pages/Lugares_a_visitar";
 import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (

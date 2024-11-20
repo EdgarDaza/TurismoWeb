@@ -7,6 +7,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Lugares_a_visitar from "./Pages/Lugares_a_visitar";
+import Eventos from "./Pages/eventos";
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -20,6 +21,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Lugares_a_visitar" element={<Lugares_a_visitar/>} />
+        <Route path="/Eventos" element={<Eventos/>} />
       </Routes>
      
 
