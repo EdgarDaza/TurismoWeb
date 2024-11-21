@@ -1,13 +1,13 @@
 import './Lugares_a_visitar.css';
 import React from 'react';
-import imagen1 from '../assets/img/Boquete-parque.png'
-import imagen2 from '../assets/img/Canal-panama.jpeg'
-import imagen3 from '../assets/img/Casco-antiguo.png'
-import imagen4 from '../assets/img/Cerra-punta.jpeg'
-import imagen5 from '../assets/img/Isla-Coiba.png'
-import imagen6 from '../assets/img/Panama-vieja.png'
-import imagen7 from '../assets/img/Portobelo.png'
-import imagen8 from '../assets/img/San-Blas.jpeg'
+import imagen1 from '../assets/eventos/Cabalgata-gualaca.jpeg'
+import imagen2 from '../assets/eventos/Carnavales.jpeg'
+import imagen3 from '../assets/eventos/Comic-con.jpeg'
+import imagen4 from '../assets/eventos/Corpus-cristi.jpg'
+import imagen5 from '../assets/eventos/Desfile-polleras.jpeg'
+import imagen6 from '../assets/eventos/Fiestras-patrias.jpeg'
+import imagen7 from '../assets/eventos/Panama-jazz.png'
+import imagen8 from '../assets/eventos/Viernes-santo.jpeg'
 
 
 const images = [
