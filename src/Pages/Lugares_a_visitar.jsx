@@ -11,7 +11,7 @@ import imagen8 from '../assets/lugaresAvisitar/San-Blas.jpeg'
 
 
 const images = [
-  { src: (imagen1), alt: 'Imagen 1' },
+  { src: (imagen1), alt: 'Imagen 1', link: '/tiendas' },
   { src: (imagen2), alt: 'Imagen 2' },
   { src: (imagen3), alt: 'Imagen 3' },
   { src: (imagen4), alt: 'Imagen 4' },
@@ -26,7 +26,9 @@ const Lugares_a_visitar = () => {
     <section className="gallery">
       {images.map((image, index) => (
         <div className="image" key={index}>
+          <a href={image.link}>
           <img src={image.src} alt={image.alt} />
+          </a>
         </div>
       ))}
     </section>
