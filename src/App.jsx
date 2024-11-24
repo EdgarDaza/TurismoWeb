@@ -8,11 +8,11 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Lugares_a_visitar from "./Pages/Lugares_a_visitar";
 import Eventos from "./Pages/eventos";
-import Boqueteparque from "./Pages/Paginas_a_visitar_información/Boqueteparque";
-import Canalpanama from "./Pages/Paginas_a_visitar_información/Canalpanama";
-import Cascoantiguo from "./Pages/Paginas_a_visitar_información/Cascoantiguo";
 
-
+//Canales
+import Boqueteparque from "./Pages/Paginas_Lugares_visitar_información/Boqueteparque";
+import Canalpanama from "./Pages/Paginas_Lugares_visitar_información/Canalpanama";
+import Cascoantiguo from "./Pages/Paginas_Lugares_visitar_información/Cascoantiguo";
 
 
 const App = () => {
@@ -31,7 +31,7 @@ const App = () => {
 
         <Route path="/Boqueteparque" element={<Boqueteparque/>} />
         <Route path="/Canalpanama" element={<Canalpanama/>} />
-        <Route path="/Cascoantiguo" element={<Cascoantiguo/>} />
+        <Route path="/Cascoantiguo" element={<Cascoantiguo/>} />        
       </Routes>
      
 

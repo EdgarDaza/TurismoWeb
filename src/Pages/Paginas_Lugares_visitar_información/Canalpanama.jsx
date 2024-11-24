@@ -1,5 +1,5 @@
-import './formato_perfiles_noticias.css';
-import imagen1 from '../../assets/lugaresAvisitar/Canal-panama.jpeg';
+import './Formato_perfiles_noticias.css';
+import imagen from '../../assets/lugaresAvisitar/Canal-panama.jpeg';
 import React from 'react';
 
 const Canalpanama = () => {
@@ -7,7 +7,7 @@ const Canalpanama = () => {
     <div>
       <h1>Canal de Panamá, Panamá</h1>
 
-      <img src={imagen1} alt="Canal panama" className="imagen-principal" />
+      <img src={imagen} alt="Canal panama" className="imagen-principal" />
 
 
       <ul>

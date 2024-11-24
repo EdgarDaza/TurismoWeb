@@ -1,5 +1,5 @@
-import './formato_perfiles_noticias.css';
-import imagen1 from '../../assets/lugaresAvisitar/Boquete-parque.png';
+import './Formato_perfiles_noticias.css';
+import imagen from '../../assets/lugaresAvisitar/Boquete-parque.png';
 import React from 'react';
 
 const Boqueteparque = () => {
@@ -7,7 +7,7 @@ const Boqueteparque = () => {
     <div>
       <h1>Boquete, Chiriquí</h1>
 
-      <img src={imagen1} alt="Boquete Parque" className="imagen-principal" />
+      <img src={imagen} alt="Boquete Parque" className="imagen-principal" />
 
 
       <ul>

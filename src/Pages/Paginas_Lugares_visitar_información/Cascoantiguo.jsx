@@ -1,5 +1,5 @@
-import './formato_perfiles_noticias.css';
-import imagen1 from '../../assets/lugaresAvisitar/Casco-antiguo.png';
+import './Formato_perfiles_noticias.css';
+import imagen from '../../assets/lugaresAvisitar/Casco-antiguo.png';
 import React from 'react';
 
 const Cascoantiguo = () => {
@@ -7,7 +7,7 @@ const Cascoantiguo = () => {
     <div>
       <h1>Casco Antiguo, Panamá</h1>
 
-      <img src={imagen1} alt="Cascoantiguo" className="imagen-principal" />
+      <img src={imagen} alt="Cascoantiguo" className="imagen-principal" />
 
 
       <ul>
@@ -27,4 +27,4 @@ const Cascoantiguo = () => {
 
 
 
-export default Canalpanama;
+export default Cascoantiguo;
