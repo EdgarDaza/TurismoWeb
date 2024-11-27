@@ -34,6 +34,7 @@ const App = () => {
         <Route path="/Lugares_a_visitar" element={<Lugares_a_visitar/>} />
         <Route path="/Eventos" element={<Eventos/>} />
 
+
         <Route path="/Boqueteparque" element={<Boqueteparque/>} />
         <Route path="/Canalpanama" element={<Canalpanama/>} />
         <Route path="/Cascoantiguo" element={<Cascoantiguo/>} />
@@ -44,6 +45,8 @@ const App = () => {
         <Route path="/Isladesanblas" element={<Isladesanblas/>} />
 
 
+
+        <Route path="/tiendas" element ={<Eventos/>}></Route>
 
       </Routes>
      
