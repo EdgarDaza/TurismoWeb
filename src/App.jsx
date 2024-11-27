@@ -13,6 +13,11 @@ import Eventos from "./Pages/eventos";
 import Boqueteparque from "./Pages/Paginas_Lugares_visitar_información/Boqueteparque";
 import Canalpanama from "./Pages/Paginas_Lugares_visitar_información/Canalpanama";
 import Cascoantiguo from "./Pages/Paginas_Lugares_visitar_información/Cascoantiguo";
+import Cerropunta from "./Pages/Paginas_Lugares_visitar_información/CerroPunta";
+import Islacoiba from "./Pages/Paginas_Lugares_visitar_información/Islacoiba";
+import Panamalavieja from "./Pages/Paginas_Lugares_visitar_información/Panamalavieja";
+import Portobelo from "./Pages/Paginas_Lugares_visitar_información/Portobelo";
+import Isladesanblas from "./Pages/Paginas_Lugares_visitar_información/Isladesanblas";
 
 
 const App = () => {
@@ -31,7 +36,15 @@ const App = () => {
 
         <Route path="/Boqueteparque" element={<Boqueteparque/>} />
         <Route path="/Canalpanama" element={<Canalpanama/>} />
-        <Route path="/Cascoantiguo" element={<Cascoantiguo/>} />        
+        <Route path="/Cascoantiguo" element={<Cascoantiguo/>} />
+        <Route path="/CerroPunta" element={<Cerropunta/>} />
+        <Route path="/Islacoiba" element={<Islacoiba/>} />
+        <Route path="/Panamalavieja" element={<Panamalavieja/>} />
+        <Route path="/Portobelo" element={<Portobelo/>} />
+        <Route path="/Isladesanblas" element={<Isladesanblas/>} />
+
+
+
       </Routes>
      
 

@@ -14,11 +14,11 @@ const images = [
   { src: (imagen1), alt: 'Imagen 1' , link:'/Boqueteparque'},
   { src: (imagen2), alt: 'Imagen 2' , link: '/Canalpanama' },
   { src: (imagen3), alt: 'Imagen 3' , link: '/Cascoantiguo' },
-  { src: (imagen4), alt: 'Imagen 4'},
-  { src: (imagen5), alt: 'Imagen 5' },
-  { src: (imagen6), alt: 'Imagen 6' },
-  { src: (imagen7), alt: 'Imagen 7' },
-  { src: (imagen8), alt: 'Imagen 8' },
+  { src: (imagen4), alt: 'Imagen 4' , link: '/CerroPunta'},
+  { src: (imagen5), alt: 'Imagen 5' , link: '/Islacoiba'},
+  { src: (imagen6), alt: 'Imagen 6' , link: '/Panamalavieja'},
+  { src: (imagen7), alt: 'Imagen 7' , link: '/Portobelo'},
+  { src: (imagen8), alt: 'Imagen 8' , link: '/Isladesanblas'},
 ];
 
 const Lugares_a_visitar = () => {
