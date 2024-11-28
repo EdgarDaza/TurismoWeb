@@ -1,3 +1,35 @@
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 40px;
+  width: 95%;
+  margin: 0 auto 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45px; /* Reducido de 60px a 30px para mover a la izquierda */
+}
+
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px; /* Aumentado de 10px a 15px para más espacio */
+}
+
+.image img {
+  max-width: 110%; /* Aumentado de 100% a 110% para imágenes más grandes */
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.image img:hover {
+  transform: scale(1.08); /* Aumentado de 1.05 a 1.08 para un efecto hover más notable */
+}
+
 main {
   flex: 1;
   display: flex;
@@ -36,3 +68,4 @@ h1 {
   font-size: 2.5rem;
   text-align: center;
 }
+

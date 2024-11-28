@@ -8,6 +8,9 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Lugares_a_visitar from "./Pages/Lugares_a_visitar";
 import Eventos from "./Pages/eventos";
+import Gastronomia from "./Pages/Gastronomia";
+import Tiendas from "./Pages/Tiendas";
+import Hospedaje from "./Pages/Hospedaje";
 
 //Canales de Lugares a Visitar
 import Boqueteparque from "./Pages/Paginas_Lugares_visitar_información/Boqueteparque";
@@ -43,6 +46,10 @@ const App = () => {
       <Route path="/" element={<Home/>} />
         <Route path="/Lugares_a_visitar" element={<Lugares_a_visitar/>} />
         <Route path="/Eventos" element={<Eventos/>} />
+        <Route path="/Gastronomia" element={<Gastronomia/>} />
+        <Route path="/Tiendas" element={<Tiendas/>} />
+        <Route path="/Hospedaje" element={<Hospedaje/>} />
+      
 
         //Lugares a visitar
         <Route path="/Boqueteparque" element={<Boqueteparque/>} />
@@ -63,8 +70,7 @@ const App = () => {
         <Route path="/Fiestaspatrias" element={<Fiestaspatrias/>} />
         <Route path="/Panamajazzfestival" element={<Panamajazzfestival/>} />
         <Route path="/Semanasanta" element={<Semanasanta/>} />
-        </Routes>
-     
+        </Routes>  
 
       <Footer />
       </div>

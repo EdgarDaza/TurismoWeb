@@ -16,13 +16,13 @@ const Navbar = () => {
         <a href="/Eventos">Eventos</a>
       </li>
       <li>
-        <a href="/gastronomia">Gastronomía</a>
+        <a href="/Gastronomia">Gastronomia</a>
       </li>
       <li>
-        <a href="/tiendas">Tiendas</a>
+        <a href="/Tiendas">Tiendas</a>
       </li>
       <li>
-        <a href="/hospedaje">Hospedaje</a>
+        <a href="/Hospedaje">Hospedaje</a>
       </li>
     </ul>
   </div>
@@ -32,3 +32,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
