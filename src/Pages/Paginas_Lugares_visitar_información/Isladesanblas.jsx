@@ -1,4 +1,4 @@
-import './Formato_perfiles_noticias.css';
+import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/lugaresAvisitar/San-Blas.jpeg';
 import React from 'react';
 

@@ -1,4 +1,4 @@
-import './Formato_perfiles_noticias.css';
+import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/lugaresAvisitar/Panama-vieja.png';
 import React from 'react';
 
