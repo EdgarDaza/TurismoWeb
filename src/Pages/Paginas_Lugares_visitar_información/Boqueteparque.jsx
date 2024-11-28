@@ -1,4 +1,4 @@
-import './Formato_perfiles_noticias.css';
+import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/lugaresAvisitar/Boquete-parque.png';
 import React from 'react';
 
