@@ -32,6 +32,28 @@ import Fiestaspatrias from "./Pages/Paginas_Eventos_información/Fiestaspatrias"
 import Panamajazzfestival from "./Pages/Paginas_Eventos_información/Panamajazzfestival";
 import Semanasanta from "./Pages/Paginas_Eventos_información/Semanasanta";
 
+//Canales de Tiendas
+import Conway from "./Pages/Paginas_tiendas_información/Conway";
+import Elcosto from "./Pages/Paginas_tiendas_información/Elcosto";
+import Fulldrop from "./Pages/Paginas_tiendas_información/Fulldrop";
+import Madisonstore from "./Pages/Paginas_tiendas_información/Madisonstore";
+import Nevada from "./Pages/Paginas_tiendas_información/Nevada";
+import Picadilly from "./Pages/Paginas_tiendas_información/Picadilly";
+import PuntoPoderoso from "./Pages/Paginas_tiendas_información/PuntoPoderoso";
+import Titan from "./Pages/Paginas_tiendas_información/Titan";
+
+//Canales de Hospedaje
+import SantaMaria from "./Pages/Paginas_hospedaje_información/Santa-maria";
+import Hilton from "./Pages/Paginas_hospedaje_información/Hilton";
+import JWMarriot from "./Pages/Paginas_hospedaje_información/JW-Marriot";
+import PlayaBlanca from "./Pages/Paginas_hospedaje_información/Playa-blanca";
+import Decameron from "./Pages/Paginas_hospedaje_información/Decameron";
+import Residenceinn from "./Pages/Paginas_hospedaje_información/Residence-Inn";
+import WaldofA from "./Pages/Paginas_hospedaje_información/Waldof-a";
+import Sheraton from "./Pages/Paginas_hospedaje_información/Sheraton";
+
+
+
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -70,7 +92,29 @@ const App = () => {
         <Route path="/Fiestaspatrias" element={<Fiestaspatrias/>} />
         <Route path="/Panamajazzfestival" element={<Panamajazzfestival/>} />
         <Route path="/Semanasanta" element={<Semanasanta/>} />
+
+        //Tiendas
+        <Route path="/Conway" element={<Conway/>} />
+        <Route path="/Elcosto" element={<Elcosto/>} />
+        <Route path="/Fulldrop" element={<Fulldrop/>} />
+        <Route path="/Madisonstore" element={<Madisonstore/>} />
+        <Route path="/Nevada" element={<Nevada/>} />
+        <Route path="/Picadilly" element={<Picadilly/>} />
+        <Route path="/PuntoPoderoso" element={<PuntoPoderoso/>} />
+        <Route path="/Titan" element={<Titan/>} />
+
+        //Hospedaje
+        <Route path="/SantaMaria" element={<SantaMaria/>} />
+        <Route path="/Hilton" element={<Hilton/>} />
+        <Route path="/JWMarriot" element={<JWMarriot/>} />
+        <Route path="/PlayaBlanca" element={<PlayaBlanca/>} />
+        <Route path="/Decameron" element={<Decameron/>} />
+        <Route path="/Residenceinn" element={<Residenceinn/>} />
+        <Route path="/WaldofA" element={<WaldofA/>} />
+        <Route path="/Sheraton" element={<Sheraton/>} />
         </Routes>  
+        
+        
 
       <Footer />
       </div>
