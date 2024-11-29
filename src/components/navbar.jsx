@@ -1,31 +1,28 @@
 
 import './Navbar.css';
-import Logo from './assets/LogoN.png'
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
 
 <nav className="navbar">
   <div className="navbar-left">
-    <a href="/" className="logo" width="250" height="213">
-    <img src={Logo} className="logo panama" alt="Panama logo" />
-    </a>
   </div>
   <div className="navbar-center">
     <ul className="nav-links">
       <li>
-        <a href="/lugares">Lugares a Visitar</a>
+        <Link to="/Lugares_a_visitar">Lugares a Visitar</Link>
       </li>
       <li>
         <a href="/Eventos">Eventos</a>
       </li>
       <li>
-        <a href="/gastronomia">Gastronomía</a>
+        <a href="/Gastronomia">Gastronomía</a>
       </li>
       <li>
-        <a href="/tiendas">Tiendas</a>
+        <a href="/Tiendas">Tiendas</a>
       </li>
       <li>
-        <a href="/hospedaje">Hospedaje</a>
+        <a href="/Hospedaje">Hospedaje</a>
       </li>
     </ul>
   </div>
@@ -35,3 +32,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

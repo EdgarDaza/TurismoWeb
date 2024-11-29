@@ -1,0 +1,27 @@
+
+
+
+/* Estilo del título */
+h1 {
+  text-align: center;
+  font-size: 3em; /* Letras grandes */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilo de la lista */
+ul {
+  list-style-type: none; /* Elimina los puntos de lista */
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo de la imagen */
+.imagen-principal {
+  display: block; /* Asegura que la imagen sea un bloque */
+  margin: 20px auto; /* Centra la imagen horizontalmente y da margen vertical */
+  max-width: 90%; /* La imagen no supera el 90% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 10px; /* Bordes redondeados para un toque visual */
+}
+

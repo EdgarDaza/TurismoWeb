@@ -5,10 +5,12 @@ export default function Home() {
   return (
     <main>
       <div className="hero-video">
+
       <video autoPlay muted loop>
           <source src={localVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+
       </div>
 
       <div className="content-section">
