@@ -1,40 +1,12 @@
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  padding: 40px;
-  width: 95%;
-  margin: 0 auto 0 auto;
-  justify-content: center;
-  align-items: center;
-  margin-left: 45px; /* Reducido de 60px a 30px para mover a la izquierda */
-}
-
-
-.image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px; /* Aumentado de 10px a 15px para más espacio */
-}
-
-.image img {
-  max-width: 110%; /* Aumentado de 100% a 110% para imágenes más grandes */
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.image img:hover {
-  transform: scale(1.08); /* Aumentado de 1.05 a 1.08 para un efecto hover más notable */
-}
-
 main {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  position: relative; /* Added for proper stacking context */
+
 }
 
 .hero-video {
@@ -42,12 +14,15 @@ main {
   height: 70vh;
   position: relative;
   margin-bottom: 2rem;
+
+  overflow: hidden; /* Contains the video */
 }
 
-.hero-video iframe {
+.hero-video video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Makes video cover the container while maintaining aspect ratio */
+
 }
 
 .content-section {
@@ -55,6 +30,13 @@ main {
   width: 90%;
   margin: 0 auto;
   text-align: center;
+
+  position: relative; /* Ensures content stays above video */
+  z-index: 2; /* Places content above video */
+  background-color: rgba(255, 255, 255, 0.9); /* Adds semi-transparent background */
+  padding: 2rem;
+  border-radius: 8px;
+
 }
 
 .info {
@@ -68,4 +50,5 @@ h1 {
   font-size: 2.5rem;
   text-align: center;
 }
+
 
