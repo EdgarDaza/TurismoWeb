@@ -55,6 +55,7 @@
     right: -0.5rem;
   }
   */
+  /* Original
   .line-md--light-dark-loop {
     display: inline-block;
     width: 1em;
@@ -100,8 +101,135 @@ ul li{
   cursor: pointer;
   margin-left: 40px;
 }
+*/
+/* prueba 2
+ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
 
+ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
 
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 15px 7%;
+  transition: 0.5s;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+*/
+
+/* prueba 3
+ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: black;
+  text-transform: uppercase;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 15px 7%;
+  transition: 0.5s;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.line-md--light-dark-loop {
+  margin-left: auto;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+}
+*/
+
+ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: black;
+  text-transform: uppercase;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Changed to center */
+  background: #fff;
+  padding: 15px 7%;
+  transition: 0.5s;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* Keep the light/dark mode icon on the right */
+.line-md--light-dark-loop {
+  position: absolute; /* Added position absolute */
+  right: 7%; /* Added right positioning */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+}
+
+/* Add this to ensure proper list positioning */
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 
 
