@@ -11,14 +11,14 @@ import imagen8 from '../assets/hospedaje/sheraton.jpg';
 
 
 const images = [
-  { src: (imagen1), alt: 'Imagen 1' },
-  { src: (imagen2), alt: 'Imagen 2' },
-  { src: (imagen3), alt: 'Imagen 3' },
-  { src: (imagen4), alt: 'Imagen 4' },
-  { src: (imagen5), alt: 'Imagen 5' },
-  { src: (imagen6), alt: 'Imagen 6' },
-  { src: (imagen7), alt: 'Imagen 7' },
-  { src: (imagen8), alt: 'Imagen 8' },
+  { src: (imagen1), alt: 'Imagen 1', link: '/SantaMaria' },
+  { src: (imagen2), alt: 'Imagen 2', link: '/Hilton' },
+  { src: (imagen3), alt: 'Imagen 3', link: '/JWMarriot' },
+  { src: (imagen4), alt: 'Imagen 4', link: '/PlayaBlanca' },
+  { src: (imagen5), alt: 'Imagen 5', link: '/Decameron' },
+  { src: (imagen6), alt: 'Imagen 6', link: '/Residenceinn' },
+  { src: (imagen7), alt: 'Imagen 7', link: '/WaldofA' },
+  { src: (imagen8), alt: 'Imagen 8', link: '/Sheraton' },
 ];
 
 const Hospedaje = () => {
@@ -26,7 +26,8 @@ const Hospedaje = () => {
     <section className="gallery">
       {images.map((image, index) => (
         <div className="image" key={index}>
-          <img src={image.src} alt={image.alt} />
+           <a href={image.link}>
+          <img src={image.src} alt={image.alt} /></a>
         </div>
       ))}
     </section>

@@ -76,7 +76,7 @@ button:focus-visible {
 .container{
   width: 100vw;
   min-height: 100vh;
-  background: #F9F6F3;
+  background: #fff;
   transition: 0.5s;
 }
 .container.dark{

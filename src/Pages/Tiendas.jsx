@@ -11,14 +11,14 @@ import imagen8 from '../assets/tiendas/titan.png'
 
 
 const images = [
-  { src: (imagen1), alt: 'Imagen 1' },
-  { src: (imagen2), alt: 'Imagen 2' },
-  { src: (imagen3), alt: 'Imagen 3' },
-  { src: (imagen4), alt: 'Imagen 4' },
-  { src: (imagen5), alt: 'Imagen 5' },
-  { src: (imagen6), alt: 'Imagen 6' },
-  { src: (imagen7), alt: 'Imagen 7' },
-  { src: (imagen8), alt: 'Imagen 8' },
+  { src: (imagen1), alt: 'Imagen 1', link: '/Conway' },
+  { src: (imagen2), alt: 'Imagen 2', link: '/Elcosto' },
+  { src: (imagen3), alt: 'Imagen 3', link: '/Fulldrop' },
+  { src: (imagen4), alt: 'Imagen 4', link: '/Madisonstore' },
+  { src: (imagen5), alt: 'Imagen 5', link: '/Nevada' },
+  { src: (imagen6), alt: 'Imagen 6', link: '/Picadilly' },
+  { src: (imagen7), alt: 'Imagen 7', link: '/PuntoPoderoso' },
+  { src: (imagen8), alt: 'Imagen 8', link: '/Titan' },
 ];
 
 const Tiendas = () => {
@@ -26,7 +26,8 @@ const Tiendas = () => {
     <section className="gallery">
       {images.map((image, index) => (
         <div className="image" key={index}>
-          <img src={image.src} alt={image.alt} />
+           <a href={image.link}>
+          <img src={image.src} alt={image.alt} /></a>
         </div>
       ))}
     </section>
