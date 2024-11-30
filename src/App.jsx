@@ -32,6 +32,7 @@ import Fiestaspatrias from "./Pages/Paginas_Eventos_información/Fiestaspatrias"
 import Panamajazzfestival from "./Pages/Paginas_Eventos_información/Panamajazzfestival";
 import Semanasanta from "./Pages/Paginas_Eventos_información/Semanasanta";
 
+
 //Canales de Tiendas
 import Conway from "./Pages/Paginas_tiendas_información/Conway";
 import Elcosto from "./Pages/Paginas_tiendas_información/Elcosto";
@@ -53,6 +54,16 @@ import WaldofA from "./Pages/Paginas_hospedaje_información/Waldof-a";
 import Sheraton from "./Pages/Paginas_hospedaje_información/Sheraton";
 
 
+//Canales de Gastronomia
+import Arrozconpollo from "./Pages/Paginas_Gastronomia_información/ArrozConPollo";
+import Bienmesabe from "./Pages/Paginas_Gastronomia_información/Bienmesabe";
+import Hojaldra from "./Pages/Paginas_Gastronomia_información/Hojaldra";
+import Mono from "./Pages/Paginas_Gastronomia_información/Mono";
+import Pescadoconpatacones from "./Pages/Paginas_Gastronomia_información/PescadoConPatacones";
+import Plantinta from "./Pages/Paginas_Gastronomia_información/Plantinta";
+import Sancocho from "./Pages/Paginas_Gastronomia_información/Sancocho";
+import Tamal from "./Pages/Paginas_Gastronomia_información/Tamal";
+
 
 
 const App = () => {
@@ -73,7 +84,7 @@ const App = () => {
         <Route path="/Hospedaje" element={<Hospedaje/>} />
       
 
-        //Lugares a visitar
+        {/*Lugares a visitar*/}
         <Route path="/Boqueteparque" element={<Boqueteparque/>} />
         <Route path="/Canalpanama" element={<Canalpanama/>} />
         <Route path="/Cascoantiguo" element={<Cascoantiguo/>} />
@@ -92,6 +103,7 @@ const App = () => {
         <Route path="/Fiestaspatrias" element={<Fiestaspatrias/>} />
         <Route path="/Panamajazzfestival" element={<Panamajazzfestival/>} />
         <Route path="/Semanasanta" element={<Semanasanta/>} />
+
 
         //Tiendas
         <Route path="/Conway" element={<Conway/>} />
@@ -112,6 +124,18 @@ const App = () => {
         <Route path="/Residenceinn" element={<Residenceinn/>} />
         <Route path="/WaldofA" element={<WaldofA/>} />
         <Route path="/Sheraton" element={<Sheraton/>} />
+
+        {/*Gastronomia*/}
+        <Route path="/Arrozconpollo" element={<Arrozconpollo/>} />
+        <Route path="/Bienmesabe" element={<Bienmesabe/>}/>
+        <Route path="/Hojaldra" element={<Hojaldra/>}/>
+        <Route path="/Mono" element={<Mono/>}/>
+        <Route path="PescadoconPatacones" element={<Pescadoconpatacones/>}/>
+        <Route path="/Plantinta" element={<Plantinta/>}/>
+        <Route path="/Sancocho" element={<Sancocho/>}/>
+        <Route path="/Tamal" element={<Tamal/>}/>
+        
+
         </Routes>  
         
         

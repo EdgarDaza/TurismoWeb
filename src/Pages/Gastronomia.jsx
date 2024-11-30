@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './gastronomia.css';
 import imagen1 from '../assets/gastronomia/arroz-con-pollo.jpg';
 import imagen2 from '../assets/gastronomia/sancocho.jpg';
@@ -11,14 +11,14 @@ import imagen8 from '../assets/gastronomia/tamal.jpg';
 
 
 const images = [
-  { src: (imagen1), alt: 'Imagen 1' },
-  { src: (imagen2), alt: 'Imagen 2' },
-  { src: (imagen3), alt: 'Imagen 3' },
-  { src: (imagen4), alt: 'Imagen 4' },
-  { src: (imagen5), alt: 'Imagen 5' },
-  { src: (imagen6), alt: 'Imagen 6' },
-  { src: (imagen7), alt: 'Imagen 7' },
-  { src: (imagen8), alt: 'Imagen 8' },
+  { src: (imagen1), alt: 'Imagen 1', link: '/Arrozconpollo' },
+  { src: (imagen2), alt: 'Imagen 2', link: '/Sancocho' },
+  { src: (imagen3), alt: 'Imagen 3', link: '/Hojaldra' },
+  { src: (imagen4), alt: 'Imagen 4', link: '/PescadoconPatacones' },
+  { src: (imagen5), alt: 'Imagen 5', link: '/Bienmesabe' },
+  { src: (imagen6), alt: 'Imagen 6', link: '/Plantinta'},
+  { src: (imagen7), alt: 'Imagen 7', link: '/Mono' },
+  { src: (imagen8), alt: 'Imagen 8', link: '/Tamal' },
 ];
 
 const Gastronomia = () => {
@@ -26,7 +26,9 @@ const Gastronomia = () => {
     <section className="gallery">
       {images.map((image, index) => (
         <div className="image" key={index}>
+          <a href={image.link}>
           <img src={image.src} alt={image.alt} />
+          </a>
         </div>
       ))}
     </section>
