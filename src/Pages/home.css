@@ -26,21 +26,18 @@ main {
 }
 
 .content-section {
-  max-width: 800px;
-  width: 90%;
+  max-width: 900px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 
-  position: relative; /* Ensures content stays above video */
-  z-index: 2; /* Places content above video */
-  background-color: rgba(255, 255, 255, 0.9); /* Adds semi-transparent background */
-  padding: 2rem;
-  border-radius: 8px;
+ 
 
 }
 
 .info {
-  margin: 1rem 0;
+  font-size: 1.6rem;
+  margin: 3rem 0;
   line-height: 1.6;
   text-align: justify;
 }
