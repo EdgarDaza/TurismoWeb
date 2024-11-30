@@ -4,25 +4,25 @@ import imagen from '../../assets/tiendas/nevada.png'
 const Info = () => {
     return (
       <div>
-        <h1>Cabalgata de Gualaca, Chiriqui</h1>
+        <h1>Tienda, Nevda</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
   
         <ul>
           <li>
-            <strong>¿Qué se hace?</strong>
-            <p>Desfile a caballo, actividades culturales.</p>
+            <strong>¿Qué productos vende?</strong>
+            <p>Belleza y cuidado personal.</p>
           </li>
   
           <li>
-            <strong>¿Donde se celebra?</strong>
-            <p>Gualaca, Chiriquí.</p>
+            <strong>Dirección de la sucursal</strong>
+            <p>CHHF+29H, David </p>
           </li>
   
           <li>
-            <strong>Fecha de celebración:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <strong>Descripción:</strong>
+            <p>Es una tienda especializada en productos de belleza y cuidado personal. Ha desarrollado su presencia en David como una opción para productos especializados. Se enfoca en ofrecer una variedad de marcas de belleza y salud. </p>
           </li>
   
   

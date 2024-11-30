@@ -4,25 +4,25 @@ import imagen from '../../assets/tiendas/madison-store.png'
 const Info = () => {
     return (
       <div>
-        <h1>Cabalgata de Gualaca, Chiriqui</h1>
+        <h1>Tienda, Madison Store</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
   
         <ul>
           <li>
-            <strong>¿Qué se hace?</strong>
-            <p>Desfile a caballo, actividades culturales.</p>
+            <strong>¿Qué productos vende?</strong>
+            <p>Ropa, calzado, accesorios .</p>
           </li>
   
           <li>
-            <strong>¿Donde se celebra?</strong>
-            <p>Gualaca, Chiriquí.</p>
+            <strong>Dirección de la sucursal</strong>
+            <p>Varias sucursales en Panamá.</p>
           </li>
   
           <li>
-            <strong>Fecha de celebración:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <strong>Descripción:</strong>
+            <p>Es una cadena de tiendas de ropa que ha logrado expandirse por todo Panamá. Se caracteriza por ofrecer moda actual a precios accesibles. Ha desarrollado una fuerte presencia en centros comerciales.</p>
           </li>
   
   

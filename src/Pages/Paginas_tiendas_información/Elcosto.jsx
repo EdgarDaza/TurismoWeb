@@ -4,25 +4,25 @@ import imagen from '../../assets/tiendas/el-costo.png'
 const Info = () => {
     return (
       <div>
-        <h1>Cabalgata de Gualaca, Chiriqui</h1>
+        <h1>Tienda, El Costo</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
   
         <ul>
           <li>
-            <strong>¿Qué se hace?</strong>
-            <p>Desfile a caballo, actividades culturales.</p>
+            <strong>¿Qué productos vende?</strong>
+            <p>Alimentos, productos de limpieza, hogar, electrónica.</p>
           </li>
   
           <li>
-            <strong>¿Donde se celebra?</strong>
-            <p>Gualaca, Chiriquí.</p>
+            <strong>Dirección de la sucursal</strong>
+            <p>Federal Mall, David</p>
           </li>
   
           <li>
-            <strong>Fecha de celebración:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <strong>Descripción:</strong>
+            <p>Es un supermercado que surgió como una alternativa económica para las familias panameñas. Se enfoca en ofrecer productos básicos de la canasta familiar a precios competitivos. Ha crecido desde sus inicios para incluir una mayor variedad de productos, incluyendo electrónica y artículos para el hogar. </p>
           </li>
   
   

@@ -4,25 +4,25 @@ import imagen from '../../assets/tiendas/titan.png'
 const Info = () => {
     return (
       <div>
-        <h1>Cabalgata de Gualaca, Chiriqui</h1>
+        <h1>Tienda, Titan</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
   
         <ul>
           <li>
-            <strong>¿Qué se hace?</strong>
-            <p>Desfile a caballo, actividades culturales.</p>
+            <strong>¿Qué productos vende?</strong>
+            <p>Ropa, calzado, accesorios.</p>
           </li>
   
           <li>
-            <strong>¿Donde se celebra?</strong>
-            <p>Gualaca, Chiriquí.</p>
+            <strong>Dirección de la sucursal</strong>
+            <p>Federal Mall, David</p>
           </li>
   
           <li>
-            <strong>Fecha de celebración:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <strong>Descripción:</strong>
+            <p>Es una tienda por departamentos que ha estado presente en el mercado panameño. Ofrece una variedad de marcas nacionales e internacionales. Se ha posicionado en el mercado como una opción para ropa y calzado de calidad. </p>
           </li>
   
   

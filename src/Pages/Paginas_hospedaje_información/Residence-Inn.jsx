@@ -4,25 +4,25 @@ import imagen from '../../assets/hospedaje/residence-inn.jpg'
 const Info = () => {
     return (
       <div>
-        <h1>Cabalgata de Gualaca, Chiriqui</h1>
+        <h1>Hotel, Residence Inn</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
   
         <ul>
           <li>
-            <strong>¿Qué se hace?</strong>
-            <p>Desfile a caballo, actividades culturales.</p>
+            <strong>Fecha de fundación</strong>
+            <p>2016</p>
           </li>
   
           <li>
-            <strong>¿Donde se celebra?</strong>
-            <p>Gualaca, Chiriquí.</p>
+            <strong>Ubicación</strong>
+            <p>Costa del Este, Ciudad de Panamá</p>
           </li>
   
           <li>
-            <strong>Fecha de celebración:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <strong>Precio Regular por Habitación/Noche</strong>
+            <p>$180</p>
           </li>
   
   

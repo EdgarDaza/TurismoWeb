@@ -4,25 +4,27 @@ import imagen from '../../assets/tiendas/conway.jpeg'
 const Info = () => {
     return (
       <div>
-        <h1>Cabalgata de Gualaca, Chiriqui</h1>
+        <h1>Tienda, Conway</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
   
         <ul>
           <li>
-            <strong>¿Qué se hace?</strong>
-            <p>Desfile a caballo, actividades culturales.</p>
+            <strong>¿Qué productos vende?</strong>
+            <p>Ropa, calzado, accesorios.</p>
           </li>
   
           <li>
-            <strong>¿Donde se celebra?</strong>
-            <p>Gualaca, Chiriquí.</p>
+            <strong>Dirección de la sucursal</strong>
+            <p>Plaza Terronal, David</p>
           </li>
-  
+          
           <li>
-            <strong>Fecha de celebración:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <strong>Descripción:</strong>
+            <p>Es una cadena de tiendas por departamentos que ha estado presente en Panamá por varios años 
+               Se especializa en ropa casual y formal para toda la familia a precios accesibles 
+               Ha logrado expandirse a varias ubicaciones en el país, incluyendo su presencia en David.</p>
           </li>
   
   
