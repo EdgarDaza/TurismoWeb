@@ -1,7 +1,7 @@
 import '../Formatos/Formato_perfiles_noticias.css';
-import imagen from '../../assets/eventos/Carnavales.jpeg'
+import imagen from '../../assets/eventos/Cabalgata-gualaca.jpeg'
 
-import React from 'react';
+
 
 const Info = () => {
   return (

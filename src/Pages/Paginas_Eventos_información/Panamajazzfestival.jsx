@@ -1,7 +1,5 @@
 import '../Formatos/Formato_perfiles_noticias.css';
-import imagen from '../../assets/eventos/Fiestras-patrias.jpeg'
-
-import React from 'react';
+import imagen from '../../assets/eventos/Panama-jazz.png'
 
 const Info = () => {
   return (

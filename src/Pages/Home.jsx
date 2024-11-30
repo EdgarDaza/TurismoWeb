@@ -1,17 +1,16 @@
 import "./home.css";
+import localVideo from '../assets/videos/Turismo-Calidad-Reducida-2.mp4';
 
 export default function Home() {
   return (
     <main>
       <div className="hero-video">
-        <iframe 
-          src="https://www.youtube.com/embed/jYdaQJzcAcw?si=wHE7c9d9PP9Gown-" 
-          title="YouTube video player" 
-          frameBorder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerPolicy="strict-origin-when-cross-origin" 
-          allowFullScreen
-        ></iframe>
+
+      <video autoPlay muted loop>
+          <source src={localVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
       </div>
 
       <div className="content-section">
