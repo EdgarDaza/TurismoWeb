@@ -4,7 +4,7 @@ import imagen from '../../assets/gastronomia/sancocho.jpg'
 const Info = () => {
     return (
       <div>
-        <h1>Arroz Con Pollo</h1>
+        <h1>Sancocho</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
@@ -12,13 +12,17 @@ const Info = () => {
         <ul>
           <li>
             <strong>Historia de Su Origen</strong>
-            <p>Originario de España, pero con variaciones en muchas culturas. Se cree que los árabes introdujeron el arroz en la Península Ibérica.</p>
+            <p>Sopa tradicional de muchos países latinoamericanos, elaborada con diferentes tipos de carnes, verduras y tubérculos.</p>
           </li>
   
           
           <li>
             <strong>Receta:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <p>1. Sofreír cebolla, ajo y sofrito en aceite.<br></br> 
+            2. Agregar trozos de carne (res, cerdo, pollo) y cocinar hasta dorar.<br></br> 
+            3. Incorporar yuca, ñame, plátano, maíz y otras verduras.<br></br> 
+            4. Cubrir con agua y cocinar a fuego bajo hasta que todos los ingredientes estén suaves.<br></br> 
+            5. Condimentar con sal, pimienta y otros condimentos al gusto.</p>
           </li>
   
   

@@ -18,7 +18,10 @@ const Info = () => {
           
           <li>
             <strong>Receta:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <p>1. Sofreír cebolla y ajo en aceite.<br></br> 
+            2. Agregar trozos de pollo y cocinar hasta dorar.<br></br>
+            3. Incorporar arroz y sofreír brevemente. 4. Agregar caldo de pollo y cocinar a fuego bajo hasta que el arroz esté tierno.<br></br> 
+            5. Condimentar con sal, pimienta y otros condimentos al gusto.</p>
           </li>
   
   

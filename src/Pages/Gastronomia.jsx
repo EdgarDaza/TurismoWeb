@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './gastronomia.css';
 import imagen1 from '../assets/gastronomia/arroz-con-pollo.jpg';
 import imagen2 from '../assets/gastronomia/sancocho.jpg';

@@ -4,7 +4,7 @@ import imagen from '../../assets/gastronomia/plantinta.jpg'
 const Info = () => {
     return (
       <div>
-        <h1>Arroz Con Pollo</h1>
+        <h1>Plantinta</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
@@ -12,13 +12,15 @@ const Info = () => {
         <ul>
           <li>
             <strong>Historia de Su Origen</strong>
-            <p>Originario de España, pero con variaciones en muchas culturas. Se cree que los árabes introdujeron el arroz en la Península Ibérica.</p>
+            <p>Plato típico de algunas regiones de Colombia, elaborado con plátano maduro sancochado y machacado.	</p>
           </li>
   
           
           <li>
             <strong>Receta:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <p>1. Sancochar plátanos maduros hasta que estén suaves.<br></br> 
+            2. Machacar los plátanos con un tenedor o pisón.<br></br> 
+            3. Condimentar con sal y agregar queso rallado o mantequilla.</p>
           </li>
   
   

@@ -4,7 +4,7 @@ import imagen from '../../assets/gastronomia/hojaldra.jpg'
 const Info = () => {
     return (
       <div>
-        <h1>Arroz Con Pollo</h1>
+        <h1>Hojaldra</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
@@ -12,13 +12,13 @@ const Info = () => {
         <ul>
           <li>
             <strong>Historia de Su Origen</strong>
-            <p>Originario de España, pero con variaciones en muchas culturas. Se cree que los árabes introdujeron el arroz en la Península Ibérica.</p>
+            <p>Técnica de pastelería originaria de Francia. Consiste en superponer láminas de masa con mantequilla para obtener una textura crujiente y hojaldrada.</p>
           </li>
   
           
           <li>
             <strong>Receta:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <p>La elaboración del hojaldre es un proceso más complejo y requiere de una técnica específica. Básicamente, se trabaja con una masa base y mantequilla, que se pliegan y estiran repetidamente.</p>
           </li>
   
   

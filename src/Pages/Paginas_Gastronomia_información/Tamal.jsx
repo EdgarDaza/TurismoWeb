@@ -4,7 +4,7 @@ import imagen from '../../assets/gastronomia/tamal.jpg'
 const Info = () => {
     return (
       <div>
-        <h1>Arroz Con Pollo</h1>
+        <h1>Tamal</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
@@ -12,13 +12,15 @@ const Info = () => {
         <ul>
           <li>
             <strong>Historia de Su Origen</strong>
-            <p>Originario de España, pero con variaciones en muchas culturas. Se cree que los árabes introdujeron el arroz en la Península Ibérica.</p>
+            <p>Plato originario de Mesoamérica, elaborado con masa de maíz, relleno de carne, verduras o frijoles, envuelto en hojas de maíz o plátano.</p>
           </li>
   
           
           <li>
             <strong>Receta:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <p>1. Preparar la masa de maíz con manteca, sal y caldo.<br></br> 
+            2. Elaborar el relleno deseado.<br></br> 
+            3. Rellenar las hojas con la masa y cocinar al vapor.</p>
           </li>
   
   
