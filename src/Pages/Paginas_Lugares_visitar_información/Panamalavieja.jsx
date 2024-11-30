@@ -1,10 +1,9 @@
 import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/lugaresAvisitar/Panama-vieja.png';
-import React from 'react';
 
 const Panamalavieja = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Panamá La Vieja, Panamá</h1>
 
       <img src={imagen} alt="Cascoantiguo" className="imagen-principal" />

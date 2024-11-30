@@ -1,10 +1,9 @@
 import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/lugaresAvisitar/Portobelo.png';
-import React from 'react';
 
 const Panamalavieja = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Portobelo, Colón</h1>
 
       <img src={imagen} alt="Cascoantiguo" className="imagen-principal" />

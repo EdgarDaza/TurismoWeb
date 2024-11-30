@@ -1,10 +1,10 @@
 import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/lugaresAvisitar/San-Blas.jpeg';
-import React from 'react';
+
 
 const Isladesanblas = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Isla de San Blas, Guna Yala</h1>
 
       <img src={imagen} alt="Cascoantiguo" className="imagen-principal" />

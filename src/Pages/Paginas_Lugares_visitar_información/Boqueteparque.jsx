@@ -1,10 +1,9 @@
 import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/lugaresAvisitar/Boquete-parque.png';
-import React from 'react';
 
 const Boqueteparque = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Boquete, Chiriquí</h1>
 
       <img src={imagen} alt="Boquete Parque" className="imagen-principal" />

@@ -1,10 +1,9 @@
 import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/lugaresAvisitar/Isla-Coiba.png';
-import React from 'react';
 
 const Islacoiba = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Isla Coiba, Veraguas</h1>
 
       <img src={imagen} alt="Cascoantiguo" className="imagen-principal" />

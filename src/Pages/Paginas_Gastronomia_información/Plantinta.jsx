@@ -3,7 +3,7 @@ import imagen from '../../assets/gastronomia/plantinta.jpg'
 
 const Info = () => {
     return (
-      <div>
+      <div className='info-container'>
         <h1>Plantinta</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />

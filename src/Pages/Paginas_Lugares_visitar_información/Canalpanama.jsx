@@ -1,10 +1,9 @@
 import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/lugaresAvisitar/Canal-panama.jpeg';
-import React from 'react';
 
 const Canalpanama = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Canal de Panamá, Panamá</h1>
 
       <img src={imagen} alt="Canal panama" className="imagen-principal" />

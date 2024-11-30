@@ -3,7 +3,7 @@ import imagen from '../../assets/gastronomia/pescado-con-patacones.jpg'
 
 const Info = () => {
     return (
-      <div>
+      <div className='info-container'>
         <h1>Pescado con Patacones</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />

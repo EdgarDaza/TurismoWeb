@@ -3,7 +3,7 @@ import imagen from '../../assets/gastronomia/arroz-con-pollo.jpg'
 
 const Info = () => {
     return (
-      <div>
+      <div className='info-container'>
         <h1>Arroz Con Pollo</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />

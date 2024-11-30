@@ -1,10 +1,10 @@
 import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/lugaresAvisitar/Casco-antiguo.png';
-import React from 'react';
+
 
 const Cascoantiguo = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Casco Antiguo, Panamá</h1>
 
       <img src={imagen} alt="Cascoantiguo" className="imagen-principal" />
