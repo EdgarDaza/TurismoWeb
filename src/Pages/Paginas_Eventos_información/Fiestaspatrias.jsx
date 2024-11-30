@@ -1,11 +1,9 @@
 import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/eventos/Fiestras-patrias.jpeg'
 
-import React from 'react';
-
 const Info = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Fiestas Patrias</h1>
 
       <img src={imagen} alt="No imagen" className="imagen-principal" />

@@ -5,7 +5,7 @@ import React from 'react';
 
 const Info = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Desfiles De Las Mil Polleras</h1>
 
       <img src={imagen} alt="No imagen" className="imagen-principal" />

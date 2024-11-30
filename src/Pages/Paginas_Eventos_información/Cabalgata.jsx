@@ -5,7 +5,7 @@ import imagen from '../../assets/eventos/Cabalgata-gualaca.jpeg'
 
 const Info = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Cabalgata de Gualaca, Chiriqui</h1>
 
       <img src={imagen} alt="No imagen" className="imagen-principal" />

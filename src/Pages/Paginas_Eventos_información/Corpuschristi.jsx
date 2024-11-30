@@ -5,7 +5,7 @@ import React from 'react';
 
 const Info = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Corpus Christi</h1>
 
       <img src={imagen} alt="No imagen" className="imagen-principal" />

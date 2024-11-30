@@ -3,7 +3,7 @@ import imagen from '../../assets/eventos/Panama-jazz.png'
 
 const Info = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Panama Jazz Festival</h1>
 
       <img src={imagen} alt="No imagen" className="imagen-principal" />

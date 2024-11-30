@@ -1,28 +1,44 @@
-
-
-
 /* Estilo del título */
 h1 {
   text-align: center;
-  font-size: 3em; /* Letras grandes */
+  font-size: 3.5em;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* Estilo de la lista */
-ul {
-  list-style-type: none; /* Elimina los puntos de lista */
+.info-container ul {
+  list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 80%;
+}
+
+/* Estilo de los elementos de la lista */
+.info-container li {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.info-container li p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+li strong {
+  font-size: 1.4em;
+  display: block;
+  margin-bottom: 15px;
 }
 
 /* Estilo de la imagen */
 .imagen-principal {
-  display: block; /* Asegura que la imagen sea un bloque */
-  margin: 20px auto; /* Centra la imagen horizontalmente y da margen vertical */
-  max-width: 100%; /* La imagen no supera el 90% del ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  border-radius: 10px; /* Bordes redondeados para un toque visual */
-  width:830px;
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  width: 900px;
 }
-

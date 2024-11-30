@@ -177,7 +177,7 @@ ul li a {
 }
 */
 
-ul li {
+.header ul li  {
   display: inline-block;
   margin: 10px 20px;
   font-size: 20px;
@@ -222,7 +222,7 @@ ul li a {
 }
 
 /* Add this to ensure proper list positioning */
-ul {
+.header ul {
   display: flex;
   justify-content: center;
   align-items: center;

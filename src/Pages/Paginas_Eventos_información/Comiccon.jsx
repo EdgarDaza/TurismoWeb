@@ -1,11 +1,10 @@
 import '../Formatos/Formato_perfiles_noticias.css';
 import imagen from '../../assets/eventos/Comic-con.jpeg'
 
-import React from 'react';
 
 const Info = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Comic Con Panamá</h1>
 
       <img src={imagen} alt="No imagen" className="imagen-principal" />

@@ -8,21 +8,23 @@ export default function Footer(){
         <div className ='footer'>
           <div className='footer-container'>
             <div className="col">
+              <a href='/'>
                 <img src={Logo} alt='Panama-logo' className='logo'></img>
+                </a>
             </div>
 
             <div className="col">
             <h4>Viajes Panamá</h4>
             <ul>
-            <li><a href=''>Inicio</a></li>
-            <li><a href=''>Hospedaje</a></li>
+            <li><a href='/'>Inicio</a></li>
+            <li><a href='/Hospedaje'>Hospedaje</a></li>
             </ul>
             </div>
 
             <div className="col">
             <h4>Información</h4>
             <ul>
-            <li><a href=''>Cómo llegar</a></li>
+            <li><a href='https://www.google.com/maps/'target='_blank'>Cómo llegar</a></li>
             <li><a href=''>Consejo de viaje</a></li>
             </ul>
             </div>

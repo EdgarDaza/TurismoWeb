@@ -5,7 +5,7 @@ import imagen from '../../assets/eventos/Carnavales.jpeg'
 
 const Info = () => {
   return (
-    <div>
+    <div className='info-container'>
       <h1>Carnavales</h1>
 
       <img src={imagen} alt="Boquete Parque" className="imagen-principal" />
