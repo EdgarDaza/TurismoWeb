@@ -3,7 +3,7 @@ import imagen from '../../assets/hospedaje/santa-maria.jpg'
 
 const Info = () => {
     return (
-      <div>
+      <div className='info-container'>
         <h1>Hotel, Santa Maria</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />

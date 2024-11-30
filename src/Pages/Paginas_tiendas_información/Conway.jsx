@@ -3,7 +3,7 @@ import imagen from '../../assets/tiendas/conway.jpeg'
 
 const Info = () => {
     return (
-      <div>
+      <div className='info-container'>
         <h1>Tienda, Conway</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />

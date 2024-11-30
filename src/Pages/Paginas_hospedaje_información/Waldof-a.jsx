@@ -3,7 +3,7 @@ import imagen from '../../assets/hospedaje/waldof-a.jpg'
 
 const Info = () => {
     return (
-      <div>
+      <div className='info-container'>
         <h1>Hotel, Walfof Astoria Panamá</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />

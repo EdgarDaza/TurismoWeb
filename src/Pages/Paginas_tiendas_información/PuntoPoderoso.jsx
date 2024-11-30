@@ -3,7 +3,7 @@ import imagen from '../../assets/tiendas/punto-poderoso.png'
 
 const Info = () => {
     return (
-      <div>
+      <div className='info-container'>
         <h1>Tienda, Punto Poderoso</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
