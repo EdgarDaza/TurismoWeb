@@ -4,25 +4,25 @@ import imagen from '../../assets/hospedaje/santa-maria.jpg'
 const Info = () => {
     return (
       <div>
-        <h1>Cabalgata de Gualaca, Chiriqui</h1>
+        <h1>Hotel, Santa Maria</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
   
         <ul>
           <li>
-            <strong>¿Qué se hace?</strong>
-            <p>Desfile a caballo, actividades culturales.</p>
+            <strong>Fecha de fundación</strong>
+            <p>2018</p>
           </li>
   
           <li>
-            <strong>¿Donde se celebra?</strong>
-            <p>Gualaca, Chiriquí.</p>
+            <strong>Ubicación</strong>
+            <p>Santa María Golf & Country Club, Ciudad de Panamá</p>
           </li>
   
           <li>
-            <strong>Fecha de celebración:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <strong>Precio Regular por Habitación/Noche</strong>
+            <p>$280</p>
           </li>
   
   

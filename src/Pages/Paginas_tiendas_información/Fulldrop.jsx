@@ -4,25 +4,25 @@ import imagen from '../../assets/tiendas/full-drop.jpeg'
 const Info = () => {
     return (
       <div>
-        <h1>Cabalgata de Gualaca, Chiriqui</h1>
+        <h1>Tienda, Full drop</h1>
   
         <img src={imagen} alt="No imagen" className="imagen-principal" />
   
   
         <ul>
           <li>
-            <strong>¿Qué se hace?</strong>
-            <p>Desfile a caballo, actividades culturales.</p>
+            <strong>¿Qué productos vende?</strong>
+            <p>Ropa, calzado, accesorios.</p>
           </li>
   
           <li>
-            <strong>¿Donde se celebra?</strong>
-            <p>Gualaca, Chiriquí.</p>
+            <strong>Dirección de la sucursal</strong>
+            <p>Av. Central, David </p>
           </li>
   
           <li>
-            <strong>Fecha de celebración:</strong>
-            <p>Generalmente en fechas festivas locales.</p>
+            <strong>Descripción:</strong>
+            <p>Es una tienda de moda que se estableció en David. Se enfoca principalmente en ropa y accesorios con tendencias actuales. Ha ganado popularidad entre el público joven por sus estilos modernos. </p>
           </li>
   
   
