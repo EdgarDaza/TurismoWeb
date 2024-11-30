@@ -1,7 +1,7 @@
 import '../Formatos/Formato_perfiles_noticias.css';
-import imagen from '../../assets/eventos/Cabalgata-gualaca.jpeg'
+import imagen from '../../assets/eventos/Carnavales.jpeg'
 
-import React from 'react';
+
 
 const Info = () => {
   return (
@@ -14,7 +14,7 @@ const Info = () => {
       <ul>
         <li>
           <strong>¿Qué se hace?</strong>
-          <p>Desfile a caballo, actividades culturales.</p>
+          <p>Desfiles, comparsas, elección de reina</p>
         </li>
         <li>
           <strong>¿Donde se celebra?</strong>
